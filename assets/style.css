@@ -63,7 +63,7 @@ body{
     border-radius: 17px;
     padding: 0.6rem 1rem;
     margin-left: 1.9rem;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -80,7 +80,7 @@ body{
 .hero-section{
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-left:4.4rem;
     margin-top:3.1rem;
 }
@@ -109,31 +109,32 @@ body{
 
 /* right content */
 .right-content{
-    width: 500px;
+    width: 800px;
     position: relative;
 }
-.right-icon{
-    position: relative;
-    left: 25.9rem;
-    top: 6.3rem;
+.icon-rect{
+    position: absolute;
+    right: -20rem;
+    top: 0;
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: rgba(203, 255, 208, 1);
     border-radius: 50% 0 0 0;
 }
 .right-img {
-    position: relative;
-    bottom:18.8rem;
-    left:18.8rem;
+    position: absolute;
+    bottom:-12rem;
+    right:-9rem;
 }
 .right-img img{
-    width: 300px;
-    height: 350px;
+    width: 420px;
+    height: 450px;
 }
 
 section{
     max-width: 100%;
 }
+
 /* Section One */
 .section-one{
     background-color: rgba(255, 255, 255, 1);
@@ -188,19 +189,19 @@ section{
 .light-shade{
     background-color: rgba(203, 255, 208, 1);
     padding: 1.6rem;
-    width: 260px;
-    height: 270px;
+    width: 270px;
+    height: 260px;
     border-radius: 27px;
 }
 .dark-shade{
     background-color: rgba(38, 166, 154, 1);
     padding: 1.6rem;
     border-radius: 27px;
-    width: 260px;
-    height: 270px;
+    width: 270px;
+    height: 260px;
 }
 .text-head{
-    margin-block: 0.6rem 0.9rem;
+    margin-block: 0.5rem;
     font-weight: 700;
     font-size: 19px;
 }
@@ -286,6 +287,7 @@ section{
 .sectwo-img img{
     width: 350px;
 }
+
 /* Section Three */
 .section-three{
     position: relative;
@@ -324,7 +326,8 @@ section{
     align-items: center;
     flex-wrap: wrap;
     margin-top: 2.5rem;
-    /* min-height: 500px; */
+    min-height: 500px;
+    margin-bottom: 3rem;
 }
 
 .grid-left, .grid-right{
@@ -335,17 +338,18 @@ section{
     height: 350px;
     text-align: center;;
     width: 300px;
-    /* align-self: center; */
 }
 
 .grid-center {
     background-color: rgba(38, 166, 154, 1);
-    padding: 2rem 1.5rem;
+    padding: 1.7rem 1.5rem;
     text-align: center;
     width: 320px;
     height: 460px;
     border-radius: 20px;
     z-index:15; 
+    margin-left: -2rem;
+    margin-right: -2rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);    
 }
 .grid-center .user-image img{
@@ -391,6 +395,7 @@ section{
     display: flex;
     gap:9rem;
     overflow: hidden;
+    padding-bottom: 3rem;
 }
 .sec-4-icon{
     background-color: rgba(203, 255, 208, 1);
